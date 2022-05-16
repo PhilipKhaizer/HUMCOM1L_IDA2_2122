@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body">
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo.png" class="logo"><p id="home" class="logos">Awesome</p>
+            <nav>
+                <ul id="menulist">
+                    <li><a onclick="myFunction2()">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a onclick="myFunction4()">Contact Us</a></li>
+                    <li><a href="location.html">Location</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>Awesome<br>Computer Parts</h2>
+                <h3>Tech and Tips Available</h3>
+                <p>(The Best One Out There)</p>
+                <h4>Buy Now</h4>
+                <button type="button" onclick="myFunction6()">View</button>
+            </div>
+            <div class="slides" style="max-width: 500px">
+                <img class="mySlides" alt="pc1" src="images/1.png">
+                <img class="mySlides" alt="pc2" src="images/2.png">
+                <img class="mySlides" alt="pc3" src="images/3.png">
+                <img class="mySlides" alt="pc4" src="images/4.png">
+                <img class="mySlides" alt="pc5" src="images/5.png">
+                <script src="a.js"></script>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="wrapper">
+        <video id="home1" width="400" height="300" controls="controls" poster="images/amd logo.png" preload="none">
+            <source type="video/mp4" src="video/Introducing AMD Ryzen™.mp4">
+        </video>
+        <video id="home2" width="400" height="300" controls="controls" poster="images/intel logo.png" preload="none">
+            <source type="video/mp4" src="video/A Wonderful New Look - Intel.mp4">
+        </video>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
